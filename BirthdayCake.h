@@ -18,5 +18,6 @@ public:
     bool operator ==(const BirthdayCake& other) const;
     const BirthdayCake& operator+=(int delta);
     friend ostream& operator<<(ostream& os, const BirthdayCake& bC);
+    //nothing
 };
 #endif //ASSIGNMENT_4_BIRTHDAYCAKE_H
